@@ -12,7 +12,6 @@ align-content: center;
 height: 300px;
 display: none;
 
-
 }
 
 .column4{
@@ -34,18 +33,27 @@ height: 300px;
 }
 
 @media screen and (min-width: 641px){
+  .column{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 641px){
 .column1{
 background-color: blue;
-display: inline-block;
-width: 20%;
+display: flex;
+width: 25%;
+flex-direction: row;
+
 }
 }
 
 @media screen and (min-width: 641px){
 .column2{
 background-color: purple;
-display: inline-block;
-width: 20%;
+display: flex;
+width: 25%;
+flex-direction: row;
 }
 }
 
@@ -53,16 +61,18 @@ width: 20%;
   @media screen and (min-width: 641px){
 .column3{
   background-color: grey;
-  display: inline-block;
-  width: 20%;
+  display: flex;
+  width: 25%;
+  flex-direction: row;
 }
 }
 
 @media screen and (min-width: 641px){
 .column4{
   background-color: brown;
-  display: inline-block;
-  width: 20%;
+  display: flex;
+  width: 25%;
+  flex-direction: row;
 }
 }
 
