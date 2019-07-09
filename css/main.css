@@ -12,6 +12,7 @@ align-content: center;
 height: 300px;
 display: none;
 
+
 }
 
 .column4{
@@ -42,7 +43,7 @@ height: 300px;
 .column1{
 background-color: blue;
 display: flex;
-width: 25%;
+width: 20%;
 flex-direction: row;
 
 }
@@ -52,7 +53,7 @@ flex-direction: row;
 .column2{
 background-color: purple;
 display: flex;
-width: 25%;
+width: 20%;
 flex-direction: row;
 }
 }
@@ -62,7 +63,7 @@ flex-direction: row;
 .column3{
   background-color: grey;
   display: flex;
-  width: 25%;
+  width: 20%;
   flex-direction: row;
 }
 }
@@ -71,7 +72,7 @@ flex-direction: row;
 .column4{
   background-color: brown;
   display: flex;
-  width: 25%;
+  width: 20%;
   flex-direction: row;
 }
 }
